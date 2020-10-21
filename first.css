@@ -1,0 +1,53 @@
+
+
+*{
+margin: 0;
+}
+
+
+
+
+body{
+	background-image: url("home.webp");
+	background-repeat:no-repeat;
+	background-size: cover;
+    width: 100%;
+    height:928px;
+
+
+
+}
+.blur{
+	width: 100%;
+	height: 100%;
+	background-color:black;
+	opacity: .8;
+	position: relative;
+
+}
+
+.box{
+	height:auto;
+	width: 30%;
+	background-color:black;
+	opacity:0;
+	margin-left: 35%;
+	border-radius: 10px;
+	position: absolute;
+	top: 70%;
+	text-align: center;
+
+
+}
+p{
+	padding: 4px;
+	font-weight: bolder;
+	padding-top: 5%;
+
+
+}
+.box:hover{
+	background-color:red;
+	opacity: 1;
+	color:white;	
+}
